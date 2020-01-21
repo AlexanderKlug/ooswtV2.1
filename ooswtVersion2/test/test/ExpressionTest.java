@@ -1,6 +1,7 @@
 package test;
 
-import parser.*;
+import expression.*;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.fail;
 

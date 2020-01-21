@@ -5,15 +5,15 @@ import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.DefaultTreeModel;
 
 import basic.ConstantsForCaseDistinction;
-import parser.BracketExpression;
-import parser.Expression;
-import parser.ExpressionVisitor;
-import parser.Factor;
-import parser.NaturalNumber;
-import parser.Product;
-import parser.Quotient;
-import parser.Sum;
-import parser.Summand;
+import expression.BracketExpression;
+import expression.Expression;
+import expression.ExpressionVisitor;
+import expression.Factor;
+import expression.NaturalNumber;
+import expression.Product;
+import expression.Quotient;
+import expression.Sum;
+import expression.Summand;
 
 /*
  * visitor to set root of Expression Tree

@@ -1,13 +1,12 @@
 package test;
 
-import static org.junit.Assert.*;
 import java.util.ArrayList;
 import java.util.List;
-
 import org.junit.jupiter.api.Test;
-
 import scanner.Scanner;
 import symbol.*;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 /*
  * testing of the package scanner and symbol

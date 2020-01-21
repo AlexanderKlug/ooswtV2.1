@@ -3,15 +3,12 @@ package controller;
 import javax.swing.JTree;
 
 import actionEvent.ActionEvent;
-import actionEvent.CheckSyntaxEvent;
-import actionEvent.EvaluateEvent;
 import basic.Constants;
 import exceptions.DivisionException;
 import exceptions.SymbolException;
 import facade.Facade;
-import observer.Observable;
 import observer.Observer;
-import parser.Expression;
+import expression.Expression;
 import view.EvaluateButtonDisabled;
 import view.EvaluateButtonEnabled;
 import view.RootVisitor;

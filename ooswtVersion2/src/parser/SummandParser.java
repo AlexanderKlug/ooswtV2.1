@@ -3,6 +3,10 @@ package parser;
 import java.util.List;
 
 import exceptions.SymbolException;
+import expression.Factor;
+import expression.Product;
+import expression.Quotient;
+import expression.Summand;
 import symbol.DivisionSymbol;
 import symbol.EndSymbol;
 import symbol.ErrorToken;

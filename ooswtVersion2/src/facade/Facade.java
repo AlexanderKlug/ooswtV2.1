@@ -2,13 +2,12 @@
 
 import java.util.List;
 
-import actionEvent.ActionEvent;
 import actionEvent.CheckSyntaxEvent;
 import actionEvent.EvaluateEvent;
 import exceptions.DivisionException;
 import exceptions.SymbolException;
 import observer.Observable;
-import parser.Expression;
+import expression.Expression;
 import parser.ExpressionParserProxy;
 import scanner.Scanner;
 import symbol.Symbol;

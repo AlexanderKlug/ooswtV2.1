@@ -3,14 +3,7 @@ package parser;
 import java.util.List;
 
 import exceptions.SymbolException;
-import symbol.DivisionSymbol;
-import symbol.EndSymbol;
-import symbol.ErrorToken;
-import symbol.LeftBracketSymbol;
-import symbol.NumberSymbol;
-import symbol.PlusSymbol;
-import symbol.RightBracketSymbol;
-import symbol.StarSymbol;
+import expression.Expression;
 import symbol.Symbol;
 import symbol.SymbolVisitor;
 

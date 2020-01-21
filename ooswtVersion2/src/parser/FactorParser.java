@@ -3,6 +3,9 @@ package parser;
 import java.util.List;
 
 import exceptions.SymbolException;
+import expression.BracketExpression;
+import expression.Factor;
+import expression.NaturalNumber;
 import symbol.*;
 
 /*

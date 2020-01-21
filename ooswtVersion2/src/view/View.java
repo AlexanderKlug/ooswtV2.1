@@ -4,19 +4,12 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
-import controller.Controller;
-import observer.Observable;
-import observer.Observer;
-import parser.Expression;
-
 import javax.swing.JTextField;
 import javax.swing.JLabel;
 
-import java.awt.Component;
 import java.awt.Font;
 import javax.swing.JButton;
 import javax.swing.JTree;
-import javax.swing.JViewport;
 import javax.swing.JScrollPane;
 
 /*

@@ -1,15 +1,15 @@
 package view;
 
-public class EvaluateButtonEnabled implements State {
-	private View myView;
+public class EvaluateButtonEnabled extends State {
+	
 	
 	/*
 	 * constructor
 	 * enables Evaluate Button
 	 */
 	public EvaluateButtonEnabled(View view) {
-		this.myView = view;
-		this.myView.getEvaluateButton().setEnabled(true);
+		super(view);
+		this.getMyView().getEvaluateButton().setEnabled(true);
 	}
 
 }

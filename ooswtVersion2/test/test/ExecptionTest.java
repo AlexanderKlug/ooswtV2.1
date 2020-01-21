@@ -71,6 +71,7 @@ class ExecptionTest {
 			() -> facade.checkSyntax("5f5")
 			, SymbolException.class);
 	}
+	
 	/*
 	 * basic Method to test if certain Exceptions are thrown
 	 */

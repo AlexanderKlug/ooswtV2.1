@@ -8,6 +8,9 @@ import actionEvent.ActionEvent;
  */
 public interface Observer {
 	
+	/*
+	 * operation that will be executed when observable got new Data
+	 */
 	public void update(ActionEvent event);
 }
 

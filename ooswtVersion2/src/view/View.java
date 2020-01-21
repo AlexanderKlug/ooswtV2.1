@@ -143,7 +143,7 @@ public class View extends JFrame{
 	}
 	
 	/*
-	 * sets Syntax Tree of an Expression
+	 * sets Viewpoint to Syntax Tree of an Expression
 	 */
 	public void setViewpointTree() {
 		this.treeContent.setViewportView(this.currentTree);
@@ -156,10 +156,16 @@ public class View extends JFrame{
 		this.treeContent.setViewportView(new JPanel());
 	}
 	
+	/*
+	 * getter for Tree Content
+	 */
 	public JScrollPane getTreeContent() {
 		return this.treeContent;
 	}
 	
+	/*
+	 * sets Attribut curtrentTree
+	 */
 	public void setTree(JTree tree) {
 		this.currentTree = tree;
 	}
